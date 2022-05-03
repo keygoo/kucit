@@ -1,0 +1,19 @@
+{
+    "name": "retorica-puzzle/kucit",
+    "description": "Minimal project structure for web application with MVC concept using Flight and Twig",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "retorica-puzzle",
+            "email": "retoricapuzzle@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mikecao/flight": "v1.x-dev",
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
